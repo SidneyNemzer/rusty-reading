@@ -1,0 +1,5 @@
+{
+  // Rust Analyzer doesn't enable full language server features for sub-packages
+  // by default, so they need to be listed here.
+  "rust-analyzer.linkedProjects": ["./Cargo.toml", "./gen-fixture/Cargo.toml"]
+}
